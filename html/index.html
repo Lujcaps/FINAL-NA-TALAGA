@@ -174,7 +174,7 @@
                 address : document.getElementById("address").value,
           };
           $.ajax({
-              url: `http://localhost/Finalnatalaga/employee/update/${empid}`,
+              url: `http://finalnatalaga.test/employee/update/${empid}`,
               type: "PUT",
               data: JSON.stringify(data),
               complete: function(response) {
